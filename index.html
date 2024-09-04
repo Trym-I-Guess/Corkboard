@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Corkboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="images/x-icon" href="/Corkboard-nettside/Images/larusso2.png">
+</head>
+<body>
+    <h1>The Corkboard</h1>
+    <p>Så tanken er at dette skal en slags corkboard hvor man kan poste demoer sammen med kommentarer til demoene.
+    </p>
+    <p>Forskjellige brukere skal kunne legge til filer sammen med kommentarer. Andre brukere skal også kunne legge ved kommentarer. 
+    </p>
+    <p>
+        Jeg ser for meg at det er en slags community av creators hvor man kan legge ved filer for kommentar. Evt at det også er ett system,
+        hvor man må bli akseptert av moderators for å få bli med, evt også at det bare er venner som gjør det. 
+    </p>
+    <h2>Liste over features</h2>
+    <ul>
+        <li>boks for å adde fil</li>
+        <li>filer blir lagret</li>
+        <li>man kan adde comments til fil</li>
+        <li>andre kan adde comments</li>
+        <li>comments kan settes til hvor det er comment skal</li>
+        <li>flere brukere kan adde filer</li>
+        <li>typ et system hvor man må bli verifya for å lage en bruker</li>
+    </ul>
+    <h3>Track Submission</h3>
+    <div>
+        <label for="TrackName">Demo Track Name:</label>
+        <input type="text" id="TrackName" name="TrackName"><br><br>
+        <label for="ProdName">Producer:</label>
+        <input type="text" id="ProdName" name="ProdNam">
+        <label for="WritName">Writer:</label>
+        <input type="text" id="WritName" name="WritName"><br><br>
+        <label for="Comments">Comments:</label>
+        <input type="text" id="Comments" name="Comments"><br><br>
+        <label for="mytrack">Add your Track:</label>
+        <input type="file" id="mytrack" name="mytrack"><br><br>
+        <input type="submit" value="Submit">
+    </div>
+
+    <section>
+        <audio controls>
+            <source src="mytrack" type="audio/ogg">
+            <source src="" type="">
+        </audio>
+    </section>
+</body>
+</html>
